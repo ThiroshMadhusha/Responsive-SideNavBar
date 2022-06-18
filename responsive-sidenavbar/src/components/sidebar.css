@@ -1,0 +1,18 @@
+.sidebar_container{
+    --color_nav_bg:rgb(30,41,59);
+    --color_nav_txt:rgb(100,116,139);
+    --color_nav_ctg:rgb(226,232,240);
+    --color_nav_active:rgb(85,79,232);
+    --color_nav_not_active:rgb(61,74,94);
+    --color_nav_active_bg:rgb(15,23,42);
+    
+    --nav-width:16rem;
+
+    background: var(--color_nav_bg);
+    height: 100vh;
+
+    padding: var(--padding-md) var(--padding-sm);
+
+    transition: transform 300ms ease-in-out;
+
+}
